@@ -1,0 +1,93 @@
+{% extends "layout.html" %} {% block body %}
+
+<header
+      class="masthead"
+      style="background-image: url('    {{ url_for('static', filename = 'assets/img/home-bg.jpg') }}    ')"
+    >
+      <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="site-heading">
+              <h1>{{params['user_admin_tag']}}</h1>
+              <span class="subheading">A Blog Theme by coders</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container d-flex justify-content-center">
+<table>
+
+    <tr>
+        
+        <td>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ url_for('static', filename = 'assets/img/deletecard.png') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/delete" class="btn btn-danger">Delete Posts</a>
+                </div>
+              </div>
+
+        </td>
+
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+
+        <td>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ url_for('static', filename = 'assets/img/editcard.png') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/edit" class="btn btn-success">Edit Posts</a>
+                </div>
+              </div>
+
+        </td>
+
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+
+        <td>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ url_for('static', filename = 'assets/img/addtextcard.png') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/addpost" class="btn btn-info">Add Posts</a>
+                </div>
+              </div>
+
+        </td>
+
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+
+        <td>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ url_for('static', filename = 'assets/img/viewcard.png') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/view" class="btn btn-warning">View Posts</a>
+                </div>
+              </div>
+
+        </td>
+
+    </tr>
+
+</table>
+    </div>
+
+{% endblock %}

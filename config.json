@@ -1,0 +1,31 @@
+{
+  "params": {
+      "local_server": "True",
+      "no_of_post": 2,
+    "local_uri": {
+      "local_host": "localhost",
+      "local_user": "root",
+      "local_psd": "Tanujsai12",
+      "local_database": "codingchamps"
+    },
+    "prod_uri": {
+        "prod_host": "localhost",
+        "prod_user": "root",
+        "prod_psd": "Password",
+        "prod_database": "codingchamps"      
+    },
+    "fb_url": "https://facebook.com/codingchamps",
+    "tw_url": "https://twitter.com/codingchamps",
+    "lk_url": "https://linkedin.com/codingchamps",
+    "gh_url": "https://github.com/codingchamps",
+    "gl_url": "https://google.com/codingchamps",
+    "blog_name": "Coding Champs",
+    "gmail_user": "g.kjkjkjkj@gmail.com",
+    "gmail_password": "kjhkjhkjks@01",
+    "about_text": "Creative coding is a type of computer programming in which the goal is to create something expressive instead of something functional. It is used to create live visuals and for VJing, as well as creating visual art and design, entertainment, art installations, projections and projection mapping, sound art, advertising, product prototypes, and much more.Recent exhibitions and books, including Dominic Lopes' A Philosophy of Computer Art (2009) have sought to examine the integral role of coding in contemporary art beyond that of Human Computer Interface (HCI).[2] Criticising Lopes however, Juliff and Cox argue that Lopes continues to privilege interface and user at the expense of the integral condition of code in much computer art. Arguing for a more nuanced appreciation of coding, Juliff and Cox set out contemporary creative coding as the examination of code and intentionality as integral to the users understanding of the work.[3]",
+    "user_name":"uhikuhiuhi@gmail.com",
+    "user_password":"kkjlkjlkjk@01",
+    "user_admin_tag":"Admin Panel"
+  }
+}
+
